@@ -1,0 +1,18 @@
+{
+    "name": "Distraction Delay",
+    "description": "Pauses your distractions just long enough for you to think about them",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["script.js"],
+        "persistent": false
+    }
+}
